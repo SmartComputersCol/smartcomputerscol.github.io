@@ -1,0 +1,116 @@
+:root {
+    --dark: #0a0a0a;
+    --grey: #f6f6f6;
+    --light: #ffff;
+}
+
+body {
+    font-family: 'Spartan', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    background-color: var(--grey);
+}
+
+
+/* navbar */
+
+.navbar {
+    min-height: 3rem;
+    background: transparent;
+}
+
+
+/* Config Color BootStrap */
+
+.bg-dark {
+    background-color: var(--dark) !important;
+}
+
+.bg-grey {
+    background-color: var(--grey) !important;
+}
+
+.bg-light {
+    background-color: var(--light) !important;
+}
+
+.text-dark {
+    color: var(--dark) !important;
+}
+
+
+/* Config Color BootStrap */
+
+
+/* Config Section */
+
+.py-6 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+/* Config Section */
+
+
+/*Parte response*/
+
+@media (max-width: 300px) {
+    .diplay-4 {
+        font-size: 2.4rem;
+    }
+    .btn {
+        width: 100%;
+    }
+    .w-75 {
+        width: 100% !important;
+    }
+}
+
+@media (min-width: 1200px) {}
+
+
+/* Portrait tablet to landscape and desktop */
+
+@media (min-width: 768px) and (max-width: 979px) {}
+
+
+/* Landscape phone to portrait tablet */
+
+@media (max-width: 767px) {}
+
+
+/* Landscape phones and down */
+
+@media (max-width: 480px) {}
+
+
+/*Icono app Whatsapp*/
+
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 30px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.float:hover {
+    text-decoration: none;
+    color: #25d366;
+    background-color: #fff;
+}
+
+.my-float {
+    margin-top: 16px;
+}
+
+
+/*Icono app Whatsapp*/
